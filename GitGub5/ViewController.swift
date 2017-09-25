@@ -12,11 +12,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var boton: UIButton!
     @IBAction func botonClickeado(_ sender: Any) {
-        boton.backgroundColor = UIColor.red
+        boton.backgroundColor = UIColor.blue
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // comentario
     }
 
     override func didReceiveMemoryWarning() {
